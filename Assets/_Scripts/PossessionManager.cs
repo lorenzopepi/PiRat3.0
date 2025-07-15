@@ -468,11 +468,25 @@ public class PossessionManager : MonoBehaviour
         if (context.performed)
         {
             if (currentState == PossessionState.Selecting)
+            {
                 ExitSelectionMode();
+            }
+            else if (currentState == PossessionState.FollowingTrail)
+            {
+                // Interrompe il trail e torna al ratto
+                InterruptTrail();
+                cameraManager.SwitchToRat();
+                cameraManager.ResetZoom();
+                cameraManager.LockRotation(false);
+                ExitSelectionMode(); // ripristina stato e volumi
+            }
             else if (currentState == PossessionState.Possessing && canSwitchBackToRat)
+            {
                 SwitchToRat();
+            }
         }
     }
+
 
     // Metodo per confermare la selezione del pirata da possedere
     public void ConfirmPossess_Input(InputAction.CallbackContext context)

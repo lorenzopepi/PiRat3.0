@@ -338,7 +338,7 @@
                 {
                     "name": "",
                     "id": "e15ca19d-e649-4852-97d5-7fe8ccc44e94",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<DualShockGamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
