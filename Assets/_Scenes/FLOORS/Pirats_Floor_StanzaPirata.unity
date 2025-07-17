@@ -1731,6 +1731,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 441406729}
     - target: {fileID: 7008393099986181157, guid: cd3eff4a19b484dfdabfa0a818d7ada3, type: 3}
+      propertyPath: maxHealth
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008393099986181157, guid: cd3eff4a19b484dfdabfa0a818d7ada3, type: 3}
       propertyPath: ratManager
       value: 
       objectReference: {fileID: 190578944}
@@ -1740,12 +1744,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7008393099986181157, guid: cd3eff4a19b484dfdabfa0a818d7ada3, type: 3}
       propertyPath: attackDamage
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7008393099986181157, guid: cd3eff4a19b484dfdabfa0a818d7ada3, type: 3}
       propertyPath: ratTransform
       value: 
       objectReference: {fileID: 1773047232}
+    - target: {fileID: 7008393099986181157, guid: cd3eff4a19b484dfdabfa0a818d7ada3, type: 3}
+      propertyPath: attackCooldown
+      value: 2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7008393099986181157, guid: cd3eff4a19b484dfdabfa0a818d7ada3, type: 3}
       propertyPath: deathVFXPrefab
       value: 
