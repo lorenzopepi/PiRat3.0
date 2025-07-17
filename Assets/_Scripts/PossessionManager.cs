@@ -224,6 +224,11 @@ public class PossessionManager : MonoBehaviour
         selectedIndex = -1;
         HideScie();
         cameraManager.ResetZoom();
+        if (oculiAudioSource != null)
+        {
+            oculiAudioSource.Stop();
+            oculiAudioSource.loop = false;
+        }
 
         if (currentState == PossessionState.Selecting)
         {
