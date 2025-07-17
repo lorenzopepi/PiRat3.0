@@ -86,7 +86,7 @@ public class GameStateManager : MonoBehaviour
     void Update()
     {
         // Controlla i tasti numerici da 1 a 4
-        for (int i = 0; i <= 3; i++) // Per scene 0, 1, 2, 3
+        for (int i = 0; i <= 4; i++) // Per scene 0, 1, 2, 3
         {
             if (Keyboard.current != null && Keyboard.current[Key.Digit1 + i].wasPressedThisFrame)
             {
