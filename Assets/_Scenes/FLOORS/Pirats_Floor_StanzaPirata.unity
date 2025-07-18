@@ -1908,6 +1908,26 @@ PrefabInstance:
       value: 0.4212225
       objectReference: {fileID: 0}
     - target: {fileID: 4840180647165213175, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+      propertyPath: pm
+      value: 
+      objectReference: {fileID: 190578947}
+    - target: {fileID: 4840180647165213175, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 190578946}
+    - target: {fileID: 4840180647165213175, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+      propertyPath: inputHandler
+      value: 
+      objectReference: {fileID: 1773047229}
+    - target: {fileID: 4840180647165213175, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+      propertyPath: ratRigidbody
+      value: 
+      objectReference: {fileID: 190578945}
+    - target: {fileID: 4840180647165213175, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+      propertyPath: interactionManager
+      value: 
+      objectReference: {fileID: 190578944}
+    - target: {fileID: 4840180647165213175, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
       propertyPath: onHealthChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1914032104}
@@ -1984,6 +2004,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1096526493}
     - target: {fileID: 9122812352272184940, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+      propertyPath: powerUpConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: aaa846010519583418564d6b2641ed7d, type: 2}
+    - target: {fileID: 9122812352272184940, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
       propertyPath: quickTimeUIManager
       value: 
       objectReference: {fileID: 1688437836}
@@ -2023,6 +2047,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e32253277c634b8e810ea4c3f36f346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &190578945 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2168895866766626322, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+  m_PrefabInstance: {fileID: 190578941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &190578946 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7153946457091642587, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+  m_PrefabInstance: {fileID: 190578941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &190578947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4434297207494486838, guid: 8dcdb9da92a0a734a902f6c2632af3e1, type: 3}
+  m_PrefabInstance: {fileID: 190578941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b71ddfb32ac54faca4825041e79c850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &204546910
@@ -6405,7 +6450,7 @@ Transform:
   m_GameObject: {fileID: 1167698433}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34, y: 2.7358665, z: -1.21}
+  m_LocalPosition: {x: -0.369, y: 0.009, z: -0.271}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
